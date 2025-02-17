@@ -1,0 +1,74 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; 
+    margin:5px,25px ;
+    color: #598c15;
+    text-align: center; 
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px; 
+    margin:5px,25px ;
+    color: #598c15; 
+}
+label{
+  color:#598c15;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px; 
+  margin:5px,25px ;
+  font-weight: 500;
+}
+
+input{
+    border-radius: 5px;
+    border-color:#474747;
+    border-width: 1px;
+    color:black
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px; 
+    width:300px;
+    height:35px;
+    margin:10px;
+  } 
+ button:hover{
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(43, 4, 75);
+    color:white;
+    width: 150px;
+    height: 35px;
+    margin:0px,10px,0px,10px;
+ }  
+ button{
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    height: 35px;
+    margin:0px,10px,0px,10px;
+ }
+.femenino, .masculino{
+width: 30px;
+height: 20px;
+}
+#labelradio, #labelradio1{
+    color:#598c15;
+    display: inline-block;
+    margin-left: 1px;
+}
+.formulario{
+    background: #F6f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    display: flex;
+    margin-left:700px ;
+           
+}
+
+body{
+    margin:50px;
+    display: block;
+    justify-content: center; 
+    align-items: center;
+    text-align:center;
+}
