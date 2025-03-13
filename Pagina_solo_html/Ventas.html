@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas</title>
+</head>
+<body>
+    <header>
+        <img src="/Imagenes/logoVh.jpg" style="width: 100px;">    <br>
+ <nav>
+<span style="padding:15px 40px; margin:10px; background-color: darkblue;"><a href="index.html" style="color:white;">Inicio</a></span>
+<span style="padding:15px 40px; margin:10px; background-color: darkblue;"><a href="Productos.html"  style="color:white;">Productos</a></span>
+<span style="padding:15px 40px; margin:10px; background-color: darkblue;"><a href="Servicios.html"  style="color:white;">Servicios</a></span>
+<span style="padding:15px 40px; margin:10px; background-color: darkblue;"><a href=""  style="color:white;">Ventas</a></span>
+<span style="padding:15px 40px; margin:10px; background-color: darkblue;"><a href="Nosotros.html"  style="color:white;">Nosotros</a></span>
+<span style="padding:15px 40px; margin:10px; background-color: darkblue;"><a href="Contacto.html"  style="color:white;">Contacto</a></span>    
+</nav>
+<br>
+</header>
+
+    <section id="Fomulario" style="border:5px;background-color:rgba(30, 50, 80, 0.5);width:500px;">
+        <form method="POST" action="#">
+        <table>
+            <tr>
+                <td>
+                    <input id="caja" type="checkbox" name="Caja">
+                    <label for nombre>Caja Monofásica</label>
+                    <br><label for cantidad>Cantidad :</label>
+                    <input id=cantidad type="number" name="caja" min="1" max="50" step="1">
+                    <br>
+                    <label for cantidad>Precio Bs:</label>
+                    <input id=precio type="text" name="precio" value="45,00" disabled  style="width:65px;">
+                    
+                </td>
+                <td>
+                            <img src="/Imagenes/caja.jpg" style="width: 50px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="varilla" type="checkbox" name="varilla">
+                    <label for nombre>Varilla</label>
+                    <br><label for cantidad>Cantidad :</label>
+                    <input id=cantidad type="number" name="caja" min="1" max="50" step="1">
+                    <br>
+                    <label for cantidad>Precio Bs:</label>
+                    <input id=precio type="text" name="precio" value="25,00" disabled  style="width:65px;">
+                    
+                </td>
+                <td>
+                    <img src="/Imagenes/varilla.png" style="width: 50px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="baston" type="checkbox" name="baston">
+                    <label for nombre>Baston</label>
+                    <br><label for cantidad>Cantidad :</label>
+                    <input id=cantidad type="number" name="caja" min="1" max="50" step="1">
+                    <br>
+                    <label for cantidad>Precio Bs:</label>
+                    <input id=precio type="text" name="precio" value="50,00" disabled  style="width:65px;">
+                    
+                </td>
+                <td>
+                            <img src="/Imagenes/bastonT.jpg" style="width: 50px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="alambre" type="checkbox" name="alambre">
+                    <label for nombre>Alambre de Cu(metro)</label>
+                    <br><label for cantidad>Cantidad :</label>
+                    <input id=cantidad type="number" name="caja" min="1" max="300" step="1" value="8">
+                    <br>
+                    <label for cantidad>Precio Bs:</label>
+                    <input id=precio type="text" name="precio" value="8,00" disabled  style="width:65px;">
+                    
+                </td>
+                <td>
+                            <img src="/Imagenes/cableCu.png" style="width: 50px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="interruptor" type="checkbox" name="termico">
+                    <label for nombre>Interruptor 63A</label>
+                    <br><label for cantidad>Cantidad :</label>
+                    <input id=cantidad type="number" name="caja" min="1" max="50" step="1">
+                    <br>
+                    <label for cantidad>Precio Bs:</label>
+                    <input id=precio type="text" name="precio" value="25,00" disabled  style="width:65px;">
+                    
+                </td>
+                <td>
+                            <img src="/Imagenes/interruptor.png" style="width: 50px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="conector" type="checkbox" name="conector">
+                    <label for nombre>Conector</label>
+                    <br><label for cantidad>Cantidad :</label>
+                    <input id=cantidad type="number" name="caja" min="1" max="50" step="1">
+                    <br>
+                    <label for cantidad>Precio Bs:</label>
+                    <input id=precio type="text" name="precio" value="8,00" disabled  style="width:65px;">
+                    
+                </td>
+                <td>
+                            <img src="/Imagenes/conector.jpg" style="width: 50px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="rack" type="checkbox" name="rack">
+                    <label for nombre>Rack 4 vias</label>
+                    <br><label for cantidad>Cantidad :</label>
+                    <input id=cantidad type="number" name="caja" min="1" max="50" step="1">
+                    <br>
+                    <label for cantidad>Precio Bs:</label>
+                    <input id=precio type="text" name="precio" value="60,00" disabled  style="width:65px;">
+                    
+                </td>
+                <td>
+                            <img src="/Imagenes/rack-4-vias (1).png" style="width: 50px;">
+                </td>
+            </tr>
+        
+        
+        </table>
+
+
+        <br>
+        
+        
+        <br>
+        <button id="botoncomprar" type="submit" value="Comprar" >Comprar</button>
+        <button id="botoncancelar" type="submit" value="Cancelar" >Cancelar</button>
+        <br>
+        </form>
+        </section>
+
+    
+</body>
+</html>
